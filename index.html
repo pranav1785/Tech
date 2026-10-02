@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#06132f">
+  <meta name="description" content="Tech Guilds IITM — learn deeply, build boldly and compete together across fourteen technical domains.">
+  <title>Tech Guilds IITM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Tech Guilds IITM home">
+        <span class="brand-mark"><i></i><i></i><i></i></span>
+        <span>TECH GUILDS <b>IITM</b></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#guilds">Guilds</a>
+        <a href="#journey">Journey</a>
+        <a href="#impact">Impact</a>
+        <a class="nav-button" href="#join">Find your guild</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
+      <div class="shell hero-layout">
+        <div class="hero-copy reveal">
+          <div class="status-pill"><span></span> Student-led technical ecosystem</div>
+          <p class="overline">Learn · Build · Compete</p>
+          <h1>Build what<br><em>comes next.</em></h1>
+          <p class="hero-lede">Tech Guilds bring together IIT Madras students who want to go deeper—mastering a craft, building ambitious projects and representing the institute at national and international competitions.</p>
+          <div class="hero-actions">
+            <a class="button button-light" href="#guilds">Explore the guilds</a>
+            <a class="text-link" href="#journey">How the journey works <span>↘</span></a>
+          </div>
+          <div class="hero-mini-stats">
+            <div><strong>14</strong><span>technical domains</span></div>
+            <div><strong>700+</strong><span>active members</span></div>
+            <div><strong>2K+</strong><span>annual applicants</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="image-frame hero-image">
+            <img src="https://images.unsplash.com/photo-1446776709462-d6b525c57bd3?auto=format&fit=crop&w=1500&q=88" alt="Satellite above Earth, representing the scale of student ambition" fetchpriority="high">
+            <div class="image-shade"></div>
+          </div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="floating-card floating-top">
+            <span class="pulse"></span>
+            <div><small>ECOSYSTEM</small><strong>14 guilds, one contingent</strong></div>
+          </div>
+          <div class="floating-card floating-bottom">
+            <span class="mono">01—05</span>
+            <div><small>THE PATH</small><strong>Explore to lead</strong></div>
+          </div>
+          <div class="image-credit">Photo: NASA / Unsplash</div>
+        </div>
+      </div>
+      <div class="scroll-cue shell"><span></span> Scroll to explore</div>
+    </section>
+
+    <section class="manifesto">
+      <div class="shell manifesto-grid">
+        <p class="overline navy">The idea</p>
+        <div class="reveal">
+          <h2>Curiosity gets you in.<br><em>Consistency takes you further.</em></h2>
+          <p>Guilds are designed to train and prepare strong competitors. You begin by exploring domains and learning through structured sessions and knowledge transfers, then move into regular practice, projects and competitions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="guilds-section" id="guilds">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div><p class="overline">The guild atlas</p><h2>Fourteen ways to go deep.</h2></div>
+          <p>Choose a frontier. Learn from peers. Build enough depth to perform when the stakes are real.</p>
+        </div>
+
+        <div class="filter-row" aria-label="Filter guilds">
+          <button class="filter active" data-filter="all" aria-pressed="true">All guilds</button>
+          <button class="filter" data-filter="code" aria-pressed="false">Code & intelligence</button>
+          <button class="filter" data-filter="build" aria-pressed="false">Hardware & systems</button>
+          <button class="filter" data-filter="create" aria-pressed="false">Product & strategy</button>
+          <button class="filter" data-filter="science" aria-pressed="false">Science & sustainability</button>
+        </div>
+
+        <div class="guild-grid">
+          <article class="guild-card featured reveal" data-category="code">
+            <div class="card-number">01</div><div class="card-icon">AI</div>
+            <h3>AI & Data Science</h3><p>Learning systems, data intelligence and responsible models built around real problem statements.</p>
+            <div class="tags"><span>Machine learning</span><span>Research</span></div>
+          </article>
+          <article class="guild-card reveal" data-category="code">
+            <div class="card-number">02</div><div class="card-icon">{ }</div>
+            <h3>Competitive Coding</h3><p>Algorithms, problem-solving speed and the rigour required for elite programming contests.</p>
+            <div class="tags"><span>DSA</span><span>ICPC</span></div>
+          </article>
+          <article class="guild-card image-card reveal" data-category="build">
+            <img src="https://images.unsplash.com/photo-1643359905563-f747213c9703?auto=format&fit=crop&w=1000&q=84" alt="Engineers working with an industrial robot">
+            <div class="image-card-overlay"><span>03</span><h3>Robotics</h3><p>Mechanics, control, perception and autonomy.</p></div>
+          </article>
+          <article class="guild-card reveal" data-category="build">
+            <div class="card-number">04</div><div class="card-icon">AE</div>
+            <h3>Aerospace</h3><p>Flight, propulsion and engineering systems developed for performance beyond campus.</p>
+            <div class="tags"><span>Flight</span><span>Structures</span></div>
+          </article>
+          <article class="guild-card reveal" data-category="build">
+            <div class="card-number">05</div><div class="card-icon">IoT</div>
+            <h3>Electronics & IoT</h3><p>Embedded intelligence and connected devices that bridge digital and physical worlds.</p>
+            <div class="tags"><span>Embedded</span><span>PCB</span></div>
+          </article>
+          <article class="guild-card dark reveal" data-category="code">
+            <div class="card-number">06</div><div class="card-icon">CS</div>
+            <h3>Cybersecurity</h3><p>Attack, defence and secure engineering through hands-on labs, CTFs and adversarial thinking.</p>
+            <div class="tags"><span>CTF</span><span>Forensics</span></div>
+          </article>
+          <article class="guild-card reveal" data-category="code">
+            <div class="card-number">07</div><div class="card-icon">W3</div>
+            <h3>Distributed Systems</h3><p>Protocols, resilient infrastructure and decentralised systems explored from first principles.</p>
+            <div class="tags"><span>Protocols</span><span>Infra</span></div>
+          </article>
+          <article class="guild-card reveal" data-category="create">
+            <div class="card-number">08</div><div class="card-icon">PD</div>
+            <h3>Product & Design</h3><p>Human-centred research, thoughtful interfaces and products that solve meaningful problems.</p>
+            <div class="tags"><span>UX</span><span>Strategy</span></div>
+          </article>
+          <article class="guild-card featured reveal" data-category="create">
+            <div class="card-number">09</div><div class="card-icon">QF</div>
+            <h3>Quant & Finance</h3><p>Markets, mathematical modelling and systematic strategies tested with evidence and discipline.</p>
+            <div class="tags"><span>Markets</span><span>Models</span></div>
+          </article>
+          <article class="guild-card reveal" data-category="build">
+            <div class="card-number">10</div><div class="card-icon">AM</div>
+            <h3>Automotive & Mobility</h3><p>Vehicles and mobility systems spanning power, dynamics and autonomous navigation.</p>
+            <div class="tags"><span>EV</span><span>Mobility</span></div>
+          </article>
+          <article class="guild-card reveal" data-category="science">
+            <div class="card-number">11</div><div class="card-icon">BT</div>
+            <h3>Biotechnology</h3><p>Engineering at the intersection of biology, computation and healthcare innovation.</p>
+            <div class="tags"><span>Bioinfo</span><span>Health</span></div>
+          </article>
+          <article class="guild-card dark reveal" data-category="science">
+            <div class="card-number">12</div><div class="card-icon">ST</div>
+            <h3>Space Technology</h3><p>Mission thinking, payloads and satellite systems designed for complex environments.</p>
+            <div class="tags"><span>Payloads</span><span>Satellites</span></div>
+          </article>
+          <article class="guild-card reveal" data-category="science">
+            <div class="card-number">13</div><div class="card-icon">ES</div>
+            <h3>Energy & Sustainability</h3><p>Technology for climate, clean energy and resource-efficient systems with measurable impact.</p>
+            <div class="tags"><span>Climate</span><span>Energy</span></div>
+          </article>
+          <article class="guild-card reveal" data-category="build">
+            <div class="card-number">14</div><div class="card-icon">HM</div>
+            <h3>Hardware & Manufacturing</h3><p>Fabrication, mechanisms and resilient engineering from prototype to performance.</p>
+            <div class="tags"><span>CAD</span><span>Fabrication</span></div>
+          </article>
+        </div>
+        <p class="roster-note">Domain names are presented as a representative first version and can be replaced with the official guild roster.</p>
+      </div>
+    </section>
+
+    <section class="journey-section" id="journey">
+      <div class="journey-photo" role="img" aria-label="Engineering team collaborating in a workshop"></div>
+      <div class="shell journey-layout">
+        <div class="journey-intro reveal">
+          <p class="overline">Your journey</p>
+          <h2>Start curious.<br>Finish <em>competition-ready.</em></h2>
+          <p>You do not need to arrive as an expert. You need the willingness to learn, practise and keep showing up.</p>
+        </div>
+        <ol class="timeline">
+          <li class="reveal"><span>01</span><div><h3>Explore</h3><p>Meet the domains and find the problems that pull you in.</p></div></li>
+          <li class="reveal"><span>02</span><div><h3>Learn</h3><p>Build foundations through sessions, KTs and guided practice.</p></div></li>
+          <li class="reveal"><span>03</span><div><h3>Build</h3><p>Apply the craft to projects, prototypes and live problem statements.</p></div></li>
+          <li class="reveal"><span>04</span><div><h3>Compete</h3><p>Join focused teams and represent IIT Madras at the highest level.</p></div></li>
+          <li class="reveal"><span>05</span><div><h3>Lead</h3><p>Mentor the next cohort and move the shared knowledge forward.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="impact-section" id="impact">
+      <div class="shell">
+        <div class="impact-top reveal">
+          <p class="overline">Built to perform</p>
+          <h2>Talent matters.<br><em>Systems make it repeatable.</em></h2>
+        </div>
+        <div class="impact-layout">
+          <div class="impact-image reveal">
+            <img src="https://images.unsplash.com/photo-1592659762303-90081d34b277?auto=format&fit=crop&w=1300&q=86" alt="Dark blue printed circuit board">
+            <div class="impact-badge"><strong>10–15+</strong><span>competition wins</span></div>
+          </div>
+          <div class="principles">
+            <article class="reveal"><span>01</span><div><h3>Open knowledge</h3><p>Public repositories and shared documentation make learning accessible and cumulative.</p></div></article>
+            <article class="reveal"><span>02</span><div><h3>Pressure-tested preparation</h3><p>Dry runs, internal reviews and raw-score capture turn every attempt into a clearer next step.</p></div></article>
+            <article class="reveal"><span>03</span><div><h3>Merit-first teams</h3><p>Transparent evaluation reduces identity bias and lets demonstrated skill lead selection.</p></div></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="join-section" id="join">
+      <div class="shell join-card reveal">
+        <div class="join-rings" aria-hidden="true"><i></i><i></i><i></i></div>
+        <p class="overline">Your next room</p>
+        <h2>Find the people who make<br><em>your ambition feel normal.</em></h2>
+        <p>Explore a domain, show up consistently and build with people who care deeply about the craft. Recruitment updates are announced through official IIT Madras student channels.</p>
+        <a class="button button-light" href="#guilds">Choose a domain</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-top">
+      <a class="brand footer-brand" href="#top"><span class="brand-mark"><i></i><i></i><i></i></span><span>TECH GUILDS <b>IITM</b></span></a>
+      <p>Learn deeply. Build boldly. Compete together.</p>
+    </div>
+    <div class="shell footer-bottom">
+      <span>Student-led technical ecosystem at IIT Madras</span>
+      <span>Photography: <a href="https://unsplash.com/photos/8Hjx3GNZYeA" target="_blank" rel="noreferrer">NASA</a>, <a href="https://unsplash.com/photos/ehPAxjAtw8Q" target="_blank" rel="noreferrer">Natalia Dziubek</a>, <a href="https://unsplash.com/photos/pfR18JNEMv8" target="_blank" rel="noreferrer">Vishnu Mohanan</a></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
